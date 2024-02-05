@@ -27,6 +27,15 @@
 	};
 	fullHeight();
 
+	// var setCustomHeight = function(height) {
+	// 	$('.js-fullheight').css('height', height);
+	// 	$(window).resize(function(){
+	// 		$('.js-fullheight').css('height', height);
+	// 	});
+	// };
+	
+	// setCustomHeight(850); // Set your desired height here
+
 	// loader
 	var loader = function() {
 		setTimeout(function() { 
