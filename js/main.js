@@ -27,14 +27,14 @@
 	};
 	fullHeight();
 
-	// var setCustomHeight = function(height) {
-	// 	$('.js-fullheight').css('height', height);
-	// 	$(window).resize(function(){
-	// 		$('.js-fullheight').css('height', height);
-	// 	});
-	// };
+	var setCustomHeight = function(height) {
+		$('.js-fullheight').css('height', height);
+		$(window).resize(function(){
+			$('.js-fullheight').css('height', height);
+		});
+	};
 	
-	// setCustomHeight(850); // Set your desired height here
+	setCustomHeight(860); // Set your desired height here
 
 	// loader
 	var loader = function() {
